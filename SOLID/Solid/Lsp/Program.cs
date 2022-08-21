@@ -1,7 +1,8 @@
 ﻿using Lsp.Payments;
 
-DebitCard card = new();
+//DebitCard card = new();
 //CreditCard card = new();
+NubankRewards card = new();
 
 card.Validate();
 card.CollectPayment();
