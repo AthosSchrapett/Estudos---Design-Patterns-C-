@@ -1,16 +1,15 @@
 ﻿using Ocp;
+using Ocp.Vehicles;
 
-TypeVehicle type = TypeVehicle.Motorcycle;
+TypeVehicle type = TypeVehicle.Car;
 
 if (type == TypeVehicle.Car)
 {
-    Vehicle vehicle = new("Azul", 2022, 2.0, 5, 4);
-    vehicle.Car();
+    Car vehicle = new Car("Azul", 2022, 2.0, 5, 4);
 }
 else
 {
-    Vehicle vehicle = new("Branco", 2023, 250, 1, 0);
-    vehicle.Motorcycle();
+    Motorcycle vehicle = new Motorcycle("Branco", 2023, 250);
 }
 
 Console.ReadLine();
