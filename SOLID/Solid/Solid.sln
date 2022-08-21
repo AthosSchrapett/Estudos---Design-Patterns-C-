@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Srp", "Srp\Srp.csproj", "{7BA17B11-EEA9-40EE-8617-A8B54BEDAF35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Srp", "Srp\Srp.csproj", "{7BA17B11-EEA9-40EE-8617-A8B54BEDAF35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ocp", "Ocp\Ocp.csproj", "{AD968073-EAF6-416D-B856-3E8D34BE0414}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{7BA17B11-EEA9-40EE-8617-A8B54BEDAF35}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BA17B11-EEA9-40EE-8617-A8B54BEDAF35}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BA17B11-EEA9-40EE-8617-A8B54BEDAF35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD968073-EAF6-416D-B856-3E8D34BE0414}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD968073-EAF6-416D-B856-3E8D34BE0414}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD968073-EAF6-416D-B856-3E8D34BE0414}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD968073-EAF6-416D-B856-3E8D34BE0414}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
