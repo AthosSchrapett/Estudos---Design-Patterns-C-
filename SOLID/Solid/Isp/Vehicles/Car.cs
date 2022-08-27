@@ -1,6 +1,6 @@
 ﻿namespace Isp.Vehicles
 {
-    internal class Car : IVehicle, IVehicleCar
+    internal class Car : IVehicle
     {
         private string Color;
         private int Year;

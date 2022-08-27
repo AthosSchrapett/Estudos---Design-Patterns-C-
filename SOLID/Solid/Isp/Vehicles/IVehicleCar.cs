@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Isp.Vehicles
 {
-    internal interface IVehicleCar
+    internal interface IVehicleCar : IVehicle
     {
         void ConfigureCar(string color, int year, double engine, int seats, int doors);
     }
