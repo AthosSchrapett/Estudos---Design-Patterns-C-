@@ -1,6 +1,6 @@
 ﻿namespace Isp.Vehicles
 {
-    internal class Motorcycle : IVehicle
+    internal class Motorcycle : IVehicle, IVehicleMotorcycle
     {
         private string Color;
         private int Year;
@@ -11,12 +11,13 @@
             ConfigureMotorcycle(color, year, engine);
         }
 
-        public void ConfigureCar(string color, int year, double engine, int seats, int doors)
-        {
-        }
-
         public void ConfigureMotorcycle(string color, int year, double engine)
         {
+
+            Color = color;
+            Year = year;
+            Engine = engine;
+
             Console.WriteLine($"Criando uma moto ano {year}, {engine} cilindradas, da cor {color}");
 
             StartVehicle();
