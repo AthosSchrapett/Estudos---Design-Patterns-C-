@@ -6,23 +6,23 @@ using System.Threading.Tasks;
 
 namespace Abstract_Factory.Aircrafts
 {
-    internal class Airplane : IAircraft
+    internal class Drone : IAircraft
     {
         public void CheckWind()
         {
-            Console.WriteLine("Verificando os ventos, ventos a 25km, ventos ok!");
+            Console.WriteLine("Verificando os ventos, ventos ok!");
         }
 
         public void GetCargo()
         {
-            Console.WriteLine("Passageiros a bordo, vôo autorizado.");
+            Console.WriteLine("Encomenda foi pega");
         }
 
         public void StartRoute()
         {
             CheckWind();
             GetCargo();
-            Console.WriteLine("Iniciando decolagem");
+            Console.WriteLine("Subindo");
         }
     }
 }
