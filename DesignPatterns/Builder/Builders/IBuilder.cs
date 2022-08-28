@@ -16,5 +16,6 @@ namespace Builder.Builders
         void SetEngine(Engine engine);
         void SetTransmission(Transmission transmission);
         void SetVehicleType(VehicleType vehicleType);
+        void SetAccessories(Accessories accessories);
     }
 }

@@ -17,4 +17,10 @@ Vehicle truck = builder.GetVehicle();
 
 Console.WriteLine($"Criando um veículo do tipo: {truck.VehicleType}");
 
+director.ContructSuv();
+
+Vehicle suv = builder.GetVehicle();
+
+Console.WriteLine($"Criando um veículo do tipo: {suv.VehicleType} com {suv.Accessories}");
+
 Console.ReadLine();

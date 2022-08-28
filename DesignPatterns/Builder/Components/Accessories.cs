@@ -6,12 +6,8 @@ using System.Threading.Tasks;
 
 namespace Builder.Components
 {
-    public enum VehicleType
+    public enum Accessories
     {
-        SEDAN,
-        SPORTCAR,
-        PICKUPTRUCK,
-        TRUCK,
-        SUV
+        AIR_BAGS
     }
 }

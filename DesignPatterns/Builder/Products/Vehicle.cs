@@ -13,6 +13,7 @@ namespace Builder.Products
         private int seats;
         private Engine engine;
         private Transmission transmission;
+        private Accessories accessories;
 
         public VehicleType VehicleType
         {
@@ -36,6 +37,12 @@ namespace Builder.Products
         {
             get => transmission;
             set => transmission = value;
+        }
+
+        public Accessories Accessories
+        {
+            get => accessories;
+            set => accessories = value;
         }
     }
 }

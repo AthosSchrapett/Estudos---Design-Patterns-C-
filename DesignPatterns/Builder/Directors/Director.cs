@@ -32,5 +32,14 @@ namespace Builder.Directors
             builder.SetSeats(2);
             builder.SetTransmission(Transmission.MANUAL);
         }
+
+        public void ContructSuv()
+        {
+            builder.SetVehicleType(VehicleType.SUV);
+            builder.SetEngine(new Engine(4000));
+            builder.SetSeats(2);
+            builder.SetAccessories(Accessories.AIR_BAGS);
+            builder.SetTransmission(Transmission.AUTOMATIC_SEQUENTIAL);
+        }
     }
 }
