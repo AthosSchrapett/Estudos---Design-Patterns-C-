@@ -9,6 +9,7 @@
 
         public void StartRoute()
         {
+            GetGargo();
             Console.WriteLine("Iniciando a entrega.");
         }
     }
